@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+/*Alerta e Navegação*/
+
+.alerta{
+    background-color: #E51C42;
+    color: white;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.02rem;
+    padding: 7px;
+    padding-left: 149px;
+}
+
+.logo{
+    width: 143px;
+    height: 24px;
+    top: 38px;
+    left: 149px;
+}
+
+.nav li{
+    position: relative;
+    display: inline-block;
+    top: 2px;
+    left: 685px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #626262
+}
+
+li:nth-child(1) a{
+    color: black;    
+    font-weight: bold;
+}
+
+li:nth-child(5) a{
+    color: white;
+}
+
+.box a{
+    background-color: #E51C42;
+    padding: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px
+}
+
+/*Imagem Principal*/
+
+img{
+    position: relative;
+    top: 30px;
+    left: 32px;
+    border-radius: 8px;
+}
+
+
+/*Acesso ao formulário e apresentação*/
+
+.formulario{
+    position: relative;
+    width: 555px;
+    height: 400px;
+    background-color: #E51C42;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    left: 149px;
+    top: -165px;    
+}
+
+.formulario p{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding-left: 49px;
+    padding-top: 44px;
+    line-height: 125%;
+    letter-spacing: 0.3px;
+}
+
+.acessoformulario{
+    width: 250px;
+    height: 280px;
+    border-radius: 5px;
+    
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 580px;
+    left: 400px;
+    z-index: 1000;
+}
+
+.areaCliente{
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: white;
+}
+
+::placeholder{
+    color: rgb(190, 190, 190);
+}
+
+.formlogin{
+    padding-left: 35px;
+    padding-top: 5px;
+}
+
+#contmatic_documento, #login, #senha{
+    width: 200px;
+    margin-bottom: 7px;
+    padding: 8px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.btn_acessar{
+    width: 110px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #1e252f;
+    color: white;
+    cursor: pointer;
+}
+
+.esqueci {
+    color: white;
+    position: relative;
+    top: 30px;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.apresentacao{
+    position: relative;
+    left: 853px;
+    top: -273px;
+    width: 438px;
+    height: 352px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1E252F
+}
+
+.apresentacao h1{
+    margin-bottom: 45px;
+}
+
+p{
+    margin-bottom: 15px;
+    color: #626262;
+    line-height: 185%;
+}
+
+/*imagem abaixo do formulario*/
+
+.calculadora{
+    width: 555px;
+    height: 456px;
+    left: 149px;
+    top: -545px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/*Carrosel*/
+
+.carrossel{
+    position: relative;
+    width: 1365px;
+    height: 600px;
+    top: -475px;
+    background-color: #F4F4F4;
+    border-radius: 8px; 
+    margin: 0 auto;
+}
+
+.carrossel h2{
+    position: absolute;
+    left: 117px;
+    top: 85px;
+    color: #1E252F;
+}
+
+.carrossel .button1{
+    position: absolute;
+    top: 85px;
+    padding-bottom: 2px;
+    background: #1E252F;
+    border: 0;
+    border-radius: 8px;
+    width: 51px;
+    height: 27px;
+    font-size: 16px;
+    color: white;
+}
+
+.carrossel .button2{
+    position: absolute;
+    top: 85px;
+    padding-bottom: 2px;
+    background: #1E252F;
+    border: 0;
+    left: 60px;
+    border-radius: 8px;
+    width: 51px;
+    height: 27px;
+    font-size: 16px;
+    color: white;
+}
+
+.button{
+    position: relative;
+    left: 1140px;
+}
+
+.carrossel .contabil{
+    position: absolute;
+    width: 438px;
+    height: 352px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 160px;
+    left: 117px;
+}
+
+.contabil h2{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    font-weight: 700;
+    color: white;
+    width: 359px;
+    height: 36px;
+}
+
+.contabil p{
+    color: white;
+    width: 374px;
+    height: 111px;
+    padding-left: 40px;
+    padding-top: 180px;
+    line-height: 150%;
+
+}
+
+.carrossel .fiscal{
+    position: absolute;
+    width: 438px;
+    height: 352px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 160px;
+    left: 590px;
+}
+
+.fiscal h2{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    font-weight: 700;
+    color: white;
+    width: 359px;
+    height: 36px;
+}
+
+.fiscal p{
+    color: white;
+    width: 374px;
+    height: 111px;
+    padding-left: 40px;
+    padding-top: 180px;
+    line-height: 150%;
+}
+
+.carrossel .pessoal{
+    position: absolute;
+    width: 438px;
+    height: 352px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 160px;
+    left: 1065px;
+}
+
+.pessoal h2{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    font-weight: 700;
+    color: white;
+    width: 359px;
+    height: 36px;
+}
+
+.pessoal p{
+    color: white;
+    width: 384px;
+    height: 111px;
+    padding-left: 40px;
+    padding-top: 180px;
+    line-height: 150%;
+}
+
+.carrossel .empresas{
+    position: absolute;
+    width: 438px;
+    height: 352px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 160px;
+    left: 1540px;
+}
+
+.empresas h2{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    font-weight: 700;
+    color: white;
+    width: 359px;
+    height: 36px;
+}
+
+.empresas p{
+    color: white;
+    width: 384px;
+    height: 111px;
+    padding-left: 40px;
+    padding-top: 180px;
+    line-height: 150%;
+}
+
+/*Abaixo do carrossel*/
+
+.contador{
+    position: relative;
+    left: 147px;
+    top: -410px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.autonomos{
+    position: absolute;
+    left: 147px;
+    top: 2379px;
+    width: 555px;
+    height: 360px;
+    background-color: rgb(30, 37, 47);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.autonomos h2{
+    position: absolute;
+    color: #E51C42;
+    font-size: 26px;
+    font-weight: 500;
+    width: 480px;
+    top: 65px;
+    left: 35px;
+}
+
+.autonomos p{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    width: 480px;
+    top: 120px;
+    left: 35px;
+}
+
+.telefone{
+    position: relative;
+    left: 736px;
+    top: -690px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.negocios{
+    position: absolute;
+    left: 736px;
+    top: 2379px;
+    width: 555px;
+    height: 360px;
+    background-color: rgb(30, 37, 47);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.negocios h2{
+    position: absolute;
+    color: #E51C42;
+    font-size: 26px;
+    font-weight: 500;
+    width: 480px;
+    top: 65px;
+    left: 35px;
+}
+
+.negocios p{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    width: 480px;
+    top: 120px;
+    left: 35px;
+}
+
+/*Noticias*/
+
+.noticias h2{
+    position: relative;
+    font-size: 1.8rem;
+    left: 147px;
+    top: -245px;
+    color: #E51C42;
+}
+
+.noticias .button1{
+    position: absolute;
+    top: -275px;
+    padding-bottom: 2px;
+    background: #1E252F;
+    border: 0;
+    left: 38px;
+    border-radius: 8px;
+    width: 51px;
+    height: 27px;
+    font-size: 16px;
+    color: white;
+}
+
+.noticias .button2{
+    position: absolute;
+    top: -275px;
+    padding-bottom: 2px;
+    background: #1E252F;
+    border: 0;
+    left: 98px;
+    border-radius: 8px;
+    width: 51px;
+    height: 27px;
+    font-size: 16px;
+    color: white;
+}
+
+/* Carrossel 2*/
+
+.noticias .carrossel_2{
+    position: absolute;
+    width: 320px;
+    height: 416px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 2900px;
+    left: 147px;
+}
+
+.calculadora_2{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.noticias .carrossel_2 #diferenca{
+    position: relative;
+    color: white;
+    width: 210px;
+    height: 98px;
+    left: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 145%;
+    top: 200px;
+}
+
+.noticias .carrossel_2 p{
+    position: relative;
+    color: white;
+    font-weight: 100;
+    line-height: 145%;
+    width: 240px;
+    height: 98px;
+    left: 40px;
+    top: 200px;
+}
+
+.noticias .carrossel_3{
+    position: absolute;
+    width: 320px;
+    height: 416px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 2900px;
+    left: 497px;
+}
+
+.calculadora_2{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.noticias .carrossel_3 #direitos{
+    position: relative;
+    color: white;
+    width: 210px;
+    height: 98px;
+    left: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 145%;
+    top: 200px;
+}
+
+.noticias .carrossel_3 p{
+    position: relative;
+    color: white;
+    font-weight: 100;
+    line-height: 145%;
+    width: 240px;
+    height: 98px;
+    left: 40px;
+    top: 200px;
+}
+
+.noticias .carrossel_4{
+    position: absolute;
+    width: 320px;
+    height: 416px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 2900px;
+    left: 847px;
+}
+
+.calculadora_2{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.noticias .carrossel_4 #saiba{
+    position: relative;
+    color: white;
+    width: 210px;
+    height: 98px;
+    left: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 145%;
+    top: 200px;
+}
+
+.noticias .carrossel_4 p{
+    position: relative;
+    color: white;
+    font-weight: 100;
+    line-height: 145%;
+    width: 240px;
+    height: 98px;
+    left: 40px;
+    top: 200px;
+}
+
+.noticias .carrossel_5{
+    position: absolute;
+    width: 320px;
+    height: 416px;
+    background-color: #E51C42;
+    border-radius: 8px;
+    top: 2900px;
+    left: 1197px;
+}
+
+.calculadora_2{
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+
+.noticias .carrossel_5 #e-social{
+    position: relative;
+    color: white;
+    width: 230px;
+    height: 98px;
+    left: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 145%;
+    top: 200px;
+}
+
+.noticias .carrossel_5 p{
+    position: relative;
+    color: white;
+    font-weight: 100;
+    line-height: 145%;
+    width: 240px;
+    height: 98px;
+    left: 40px;
+    top: 200px;
+}
+
+/*Footer*/
+
+.procura{
+    position: absolute;
+    width: 1142px;
+    height: 124px;
+    border-radius: 8px;
+    background-color: #E51C42;
+    left: 147px;
+    top: 3438px;
+    z-index: 100;
+}
+
+.procura p{
+    position: absolute;
+    width: 540px;
+    height: 76px;
+    left: 70px;
+    top: 24px;
+    color: white;
+    font-size: 27px;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+.procura .btn{
+    position: absolute;
+    width: 289px;
+    height: 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: #1E252F;
+    font-size: 16px;
+    font-weight: 600;
+    left: 778px;
+    top: 50px;
+}
+
+.rodape{
+    position: absolute;
+    width: 1376px;
+    height: 260px;
+    background-color: #1E252F;
+    border-radius: 8px;
+    left: 25px;
+    top: 3502px;
+}
+
+.rodape img{
+    position: absolute;
+    width: 155px;
+    height: 44px;
+    left: 122px;
+    top: 140px;
+}
+
+.rodape p{
+    position: absolute;
+    width: 660px;
+    height: 44px;
+    color: white;
+    left: 350px;
+    top: 130px;
+}
+
+
+
+
